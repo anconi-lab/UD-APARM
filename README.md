@@ -46,7 +46,8 @@ Relative Position and Relative Rotation in Supramolecular Systems through the An
 3.	UD-APARM input
  
 
-![image](https://user-images.githubusercontent.com/86429259/206524981-a87520c7-b431-4de3-b05e-3c07ab0f8b42.png)
+![image](https://github.com/anconi-lab/UD-APARM/assets/86429259/70f83acf-98b8-4a8c-973c-bb960f3021d3)
+
 
 4.	How to cite and License
 The ideas related to the implementation are descr¬ibed in the contribution published in ACS Omega (Cleber P. A. Anconi, ACS Omega 2020, 5, 5013 – 5025). The codes were improved and revised since the publication. Therefore, the version employed in your work should be identified. For reproducibility, the present version does not handle high symmetric molecules, such as benzene. The multiple possible values for the supramolecular parameters for highly symmetric systems are under investigation. 
