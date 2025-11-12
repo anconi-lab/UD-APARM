@@ -118,7 +118,16 @@ After running UD-APARM to visualize supramolecular systems and vectors (Cartesia
    
 You may run with your chosen quantum method many starting systems. Afterward, some may face problems due to the proximity of atoms or other problems. After optimization, to check and obtain parameters for optimized supramolecular systems, it is necessary to run APARM software. Therefore, to obtain a supramolecular system, you run UD-APARM; to analyze a system, you run APARM. 
    
-7.	How to cite and License
+7.	Typical supplmentary informatin for publication
+
+We see below a table with the imput parameter of UD-APARM. With additional .xyz of the isolated molecules (only two files) one can reproduce, for instance, 
+the entire scan (2.376 supramolecular systems for this example).
+
+<img width="946" height="341" alt="image" src="https://github.com/user-attachments/assets/6780494b-f508-49ff-8419-f690b4636de6" />
+
+
+
+8.	How to cite and License
    
 The ideas related to the implementation are described at: 
 
