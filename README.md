@@ -45,6 +45,15 @@ in the current directory:
 
 >./ud-aparm-linux
 
+Each obtained file will be identified, such as (e.g.):
+
+F0010.0-000-NAD-000-000-000-UD-APARM.xyz
+
+(a single file with a distance between the two molecules equal to 10 Angstroms)
+
+In the file "scan-list.txt," you'll find a list of all generated geometries by UD-APARM.
+
+
 Change the input (ud-aparm.inp) for testing and use some visualization software to study the supramolecular systems obtained. 
 
 For visualization we recomended UCSF Chimera 
