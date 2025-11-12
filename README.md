@@ -70,6 +70,8 @@ ud-aparm.inp
 >./ud-aparm-linux
 ___________________________________________________
 
+CONTACT: cleberanconi@ufla.br
+
 3.	UD-APARM input
  
 
