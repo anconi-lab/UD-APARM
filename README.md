@@ -1,7 +1,10 @@
 Quick Guide to UD-APARM
 
 1.	Introduction
-The UD-APARM software constructs supramolecular systems from two isolated cartesian coordinates. 
+The UD-APARM software constructs supramolecular systems from two isolated cartesian coordinates.
+
+You can carry out a SCAN or obtain a single supramolecular file. UD-APARM is a crucial tool to allow reproducibility. 
+
 UD-APARM reads two simple text files comprising the cartesian coordinates of each molecule that will form the supramolecular system to be studied. 
 To run UD-APARM, you have to use the following files:
 
@@ -26,19 +29,25 @@ a file that contains instructions to the UD-APARM software (input).
 
 2.	Installation
 The pre-compiled Linux UD-APARM file ("ud-aparm-linux") can be downloaded from https://github.com/anconi-lab/UD-APARM. 
-After creation of the directory "/home/ud-aparm" in your linux distro, into .bashrc ncludes the following line:
+After creation of the directory "/home/ud-aparm" in your linux distro, into .bashrc includes the following line:
 
 alias ud-aparm='/home/ud-aparm/ud-aparm-linux'
 
-After editing such a file, download run-test-ud-aparm.tar.gz and extract the files: 
+After editing such a file, download ud-binary-1P21-sym.tar and extract the files: 
 
->tar  -xzvf run-test-ud-aparm.tar.gz
+>tar  -xvf ud-binary-1P21-sym.tar
 
-At run-test-ud-aparm , run UD-APARM to test
+>cd ud-binary-1P21-sym
+
+to run UD-APARM (for a initial test): 
 
 >./ud-aparm-linux
 
 Change the input (ud-aparm.inp) for testing and use some visualization software to study the supramolecular systems obtained. 
+
+For visualization we recomended UCSF Chimera 
+https://www.cgl.ucsf.edu/chimera/download.html
+
 
 With UCSF Chimera installed, you can see the supramolecular systems and vectors that define the relative position between the molecules (.bild files). 
 The parameters for supramolecular characterization are discussed in the following publication:
@@ -55,7 +64,6 @@ After running UD-APARM to visualize supramolecular systems and vectors (Cartesia
 
 5. Checking systems
 You may run with your chosen quantum method many starting systems. Afterward, some may face problems due to the proximity of atoms or other problems. After optimization, to check and obtain parameters for optimized supramolecular systems, it is necessary to run APARM software. Therefore, to obtain a supramolecular system, you run UD-APARM; to analyze a system, you run APARM. 
-
    
 6.	How to cite and License
 The ideas related to the implementation are descr¬ibed in the contribution published in ACS Omega (Cleber P. A. Anconi, ACS Omega 2020, 5, 5013 – 5025). The codes were improved and revised since the publication. Therefore, the version employed in your work should be identified. For reproducibility, the present version does not handle high symmetric molecules, such as benzene. The multiple possible values for the supramolecular parameters for highly symmetric systems are under investigation. 
