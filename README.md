@@ -33,17 +33,15 @@ a file that contains instructions to the UD-APARM software (input).
    (with a installed gfortran: apt install gfortran, in UBUNTU)
    
 The pre-compiled Linux UD-APARM file ("ud-aparm-linux") can be downloaded from https://github.com/anconi-lab/UD-APARM. 
-After creation of the directory "/home/ud-aparm" in your linux distro, into .bashrc includes the following line:
 
-alias ud-aparm='/home/ud-aparm/ud-aparm-linux'
-
-After editing such a file, download ud-binary-1P21-sym.tar and extract the files: 
+download ud-binary-1P21-sym.tar and extract the files: 
 
 >tar  -xvf ud-binary-1P21-sym.tar
 
 >cd ud-binary-1P21-sym
 
 to run UD-APARM (for a initial test): 
+in the current directory:
 
 >./ud-aparm-linux
 
@@ -56,6 +54,21 @@ https://www.cgl.ucsf.edu/chimera/download.html
 With UCSF Chimera installed, you can see the supramolecular systems and vectors that define the relative position between the molecules (.bild files). 
 The parameters for supramolecular characterization are discussed in the following publication:
 Relative Position and Relative Rotation in Supramolecular Systems through the Analysis of the Principal Axes of Inertia: Ferrocene/Cucurbit[7]uril and Ferrocenyl Azide/β-Cyclodextrin Case Studies. ACS Omega 2020, 5, 10, 5013–5025. 
+
+___________________________________________________
+If you wish, edit the .bashrc
+After creation of the directory "/home/ud-aparm" in your linux distro, into .bashrc includes the following line:
+
+alias ud-aparm='/home/ud-aparm/ud-aparm-linux'
+
+After editing such a file, in any directory with 
+ud-aparm-molecule_1.xyz ; 
+ud-aparm-MOLECULE_2-REFERENCE.xyz and
+ud-aparm.inp
+
+>./ud-aparm-linux
+___________________________________________________
+
 3.	UD-APARM input
  
 
