@@ -29,6 +29,9 @@ ud-aparm.inp
 a file that contains instructions to the UD-APARM software (input).
 
 2.	Installation
+
+   (with a installed gfortran: apt install gfortran, in UBUNTU)
+   
 The pre-compiled Linux UD-APARM file ("ud-aparm-linux") can be downloaded from https://github.com/anconi-lab/UD-APARM. 
 After creation of the directory "/home/ud-aparm" in your linux distro, into .bashrc includes the following line:
 
