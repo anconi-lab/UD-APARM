@@ -105,9 +105,13 @@ Cleber P. A. Anconi, ACS Omega 2020, 5, 5013 – 5025.
 The codes were improved and revised since the publication. Therefore, the version employed in your work should be identified. 
 
 
-LICENSE INFORMATION: To download and use APARM and UD-APARM, you are required to read and agree to the following terms:
+LICENSE INFORMATION: To download and use UD-APARM, you are required to read and agree to the following terms:
+
 (a) Currently, UD-APARM is free of charge for both academic and commercial usage. Anyone can freely distribute the original or their improved versions to others.
+
 (b) UD-APARM can be distributed as a free component of commercial code. 
+
 (c) UD-APARM is utilized in your work. The original ACS Omega paper MUST BE cited in your work (with the version of the software used): 
-Anconi, C. P. A.  ACS Omega 2020, 5, 5013 – 5025. UD-APARM, version 1.18. 
+Anconi, C. P. A.  ACS Omega 2020, 5, 5013 – 5025. UD-APARM, Version 1.21 REV3 theta - SYMM 
+
 (d) There is no warranty of the correctness of the results produced by UD-APARM. The author does not hold responsibility in any way for any consequences arising from the use of the UD-APARM software.
