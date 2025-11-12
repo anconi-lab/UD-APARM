@@ -93,7 +93,17 @@ You may run with your chosen quantum method many starting systems. Afterward, so
    
 7.	How to cite and License
    
-The ideas related to the implementation are descr¬ibed in the contribution published in ACS Omega (Cleber P. A. Anconi, ACS Omega 2020, 5, 5013 – 5025). The codes were improved and revised since the publication. Therefore, the version employed in your work should be identified. For reproducibility, the present version does not handle high symmetric molecules, such as benzene. The multiple possible values for the supramolecular parameters for highly symmetric systems are under investigation. 
+The ideas related to the implementation are described at: 
+
+https://pubs.acs.org/doi/10.1021/acsomega.9b03914
+
+
+Cleber P. A. Anconi, ACS Omega 2020, 5, 5013 – 5025. 
+
+
+
+The codes were improved and revised since the publication. Therefore, the version employed in your work should be identified. 
+
 
 LICENSE INFORMATION: To download and use APARM and UD-APARM, you are required to read and agree to the following terms:
 (a) Currently, UD-APARM is free of charge for both academic and commercial usage. Anyone can freely distribute the original or their improved versions to others.
