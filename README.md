@@ -57,6 +57,7 @@ Relative Position and Relative Rotation in Supramolecular Systems through the An
 
 ___________________________________________________
 If you wish, edit the .bashrc
+
 After creation of the directory "/home/ud-aparm" in your linux distro, into .bashrc includes the following line:
 
 alias ud-aparm='/home/ud-aparm/ud-aparm-linux'
