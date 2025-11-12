@@ -74,7 +74,12 @@ https://www.cgl.ucsf.edu/chimera/download.html
 
 
 With UCSF Chimera installed, you can see the supramolecular systems and vectors that define the relative position between the molecules (.bild files). 
+
 The parameters for supramolecular characterization are discussed in the following publication:
+
+https://pubs.acs.org/doi/10.1021/acsomega.9b03914
+
+Cleber P. A. Anconi. 
 Relative Position and Relative Rotation in Supramolecular Systems through the Analysis of the Principal Axes of Inertia: Ferrocene/Cucurbit[7]uril and Ferrocenyl Azide/β-Cyclodextrin Case Studies. ACS Omega 2020, 5, 10, 5013–5025. 
 
 ___________________________________________________
